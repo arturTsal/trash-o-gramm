@@ -86,7 +86,7 @@ class Album extends Component {
   }
 
   componentDidMount = () => {
-    axios.get('http://b1f6106e.ngrok.io')
+    axios.get('https://ztracker-be.herokuapp.com/public/index.php')
       .then(response => {
         this.setState({
           cards: response.data['posts'],

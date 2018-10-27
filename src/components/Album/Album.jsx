@@ -61,6 +61,11 @@ const styles = theme => ({
     backgroundSize: 'cover',
     backgroundPosition: 'center center'
   },
+  closeModalBtn: {
+    position: 'absolute',
+    top: '5px',
+    right: '5px',
+  },
   trashLink: {
     fontWeight: 700,
     fontSize: '1.5em',

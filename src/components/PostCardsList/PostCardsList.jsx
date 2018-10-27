@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 function PostCardsList({postCards, classes, creds}) {
   return (
       <React.Fragment>
-        <Button className={classes.trashLink} href={creds.link}>
+        <Button className={classes.trashLink} href={creds.link} target='_blank'>
           @{creds.username}
         </Button>
         <Grid container spacing={40} className={classNames(classes.layout, classes.cardGrid)}>

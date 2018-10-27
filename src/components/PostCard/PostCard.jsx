@@ -56,6 +56,9 @@ class PostCard extends Component {
               onClose={this.handleClose}
           >
             <div style={{backgroundImage: `url(${card.display_url})`}} className={classes.cardModal}>
+              <Button onClick={this.handleClose} variant="outlined" color="primary" className={classes.closeModalBtn}>
+                Close
+              </Button>
             </div>
           </Modal>
         </Grid>
